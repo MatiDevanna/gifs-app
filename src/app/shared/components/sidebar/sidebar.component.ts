@@ -14,5 +14,8 @@ export class SidebarComponent {
     return this.gifsService.tagsHitory;
   }
 
+  searchTag (tag: string) {
+    return this.gifsService.searchTag(tag);
+  }
 
 }
