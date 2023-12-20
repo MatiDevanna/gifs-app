@@ -14,5 +14,4 @@ export class CardListComponent {
   public gifs: Gif[] = [];
 
 
-
 }
